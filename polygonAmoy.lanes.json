@@ -1,0 +1,157 @@
+{
+	"polygonAmoy": {
+		"routerAddress": "0x9C32fCB86BF0f4a1A8921a9Fe46de3198bb884B2",
+		"chainSelector": "16281711391670634445",
+		"feeTokens": {
+			"LINK": "0x0Fd9e8d3aF1aaee056EB9e802c3A762a667b1904",
+			"WMATIC": "0x360ad4f9a9A8EFe9A8DCB5f461c4Cc1047E1Dcf9",
+			"MATIC": "native"
+		},
+		"polygonAmoy-avalancheFuji": {
+			"onRampAddress": "0x8Fb98b3837578aceEA32b454f3221FE18D7Ce903",
+			"destChainSelector": "14767482510784806043",
+			"aggregateRateLimit": {
+				"capacity": "100_000",
+				"refillRate": "167"
+			},
+			"transferableTokens": [
+				{ 
+					"symbol": "CCIP-BnM",
+					"tokenAddress": "0xcab0EF91Bee323d1A617c0a027eE753aFd6997E4",
+					"decimals": "18",
+					"mechanism": "burn-mint",
+					"rateLimitCapacity": "100_000",
+					"rateLimitRefillRate": "167"
+				}, { 
+					"symbol": "CCIP-LnM",
+					"tokenAddress": "0x3d357fb52253e86c8Ee0f80F5FfE438fD9503FF2",
+					"decimals": "18",
+					"mechanism": "burn-mint",
+					"rateLimitCapacity": "100_000",
+					"rateLimitRefillRate": "167"
+				}, { 
+					"symbol": "USDC",
+					"tokenAddress": "0x41E94Eb019C0762f9Bfcf9Fb1E58725BfB0e7582",
+					"decimals": "6",
+					"mechanism": "burn-mint",
+					"rateLimitCapacity": "100_000",
+					"rateLimitRefillRate": "167"
+				}
+			]
+		},
+		"polygonAmoy-bnbChainTestnet": {
+			"onRampAddress": "0xC6683ac4a0F62803Bec89a5355B36495ddF2C38b",
+			"destChainSelector": "13264668187771770619",
+			"aggregateRateLimit": {
+				"capacity": "100_000",
+				"refillRate": "167"
+			},
+			"transferableTokens": [
+				{ 
+					"symbol": "CCIP-BnM",
+					"tokenAddress": "0xcab0EF91Bee323d1A617c0a027eE753aFd6997E4",
+					"decimals": "18",
+					"mechanism": "burn-mint",
+					"rateLimitCapacity": "100_000",
+					"rateLimitRefillRate": "167"
+				}, { 
+					"symbol": "CCIP-LnM",
+					"tokenAddress": "0x3d357fb52253e86c8Ee0f80F5FfE438fD9503FF2",
+					"decimals": "18",
+					"mechanism": "burn-mint",
+					"rateLimitCapacity": "100_000",
+					"rateLimitRefillRate": "167"
+				}
+			]
+		},
+		"polygonAmoy-ethereumSepolia": {
+			"onRampAddress": "0x35347A2fC1f2a4c5Eae03339040d0b83b09e6FDA",
+			"destChainSelector": "16015286601757825753",
+			"aggregateRateLimit": {
+				"capacity": "100_000",
+				"refillRate": "167"
+			},
+			"transferableTokens": [
+				{ 
+					"symbol": "CCIP-BnM",
+					"tokenAddress": "0xcab0EF91Bee323d1A617c0a027eE753aFd6997E4",
+					"decimals": "18",
+					"mechanism": "burn-mint",
+					"rateLimitCapacity": "100_000",
+					"rateLimitRefillRate": "167"
+				}, { 
+					"symbol": "CCIP-LnM",
+					"tokenAddress": "0x3d357fb52253e86c8Ee0f80F5FfE438fD9503FF2",
+					"decimals": "18",
+					"mechanism": "burn-unlock",
+					"rateLimitCapacity": "100_000",
+					"rateLimitRefillRate": "167"
+				}, { 
+					"symbol": "USDC",
+					"tokenAddress": "0x41E94Eb019C0762f9Bfcf9Fb1E58725BfB0e7582",
+					"decimals": "6",
+					"mechanism": "burn-mint",
+					"rateLimitCapacity": "100_000",
+					"rateLimitRefillRate": "167"
+				}
+			]
+		},
+		"polygonAmoy-optimismSepolia": {
+			"onRampAddress": "0xA52cDAeb43803A80B3c0C2296f5cFe57e695BE11",
+			"destChainSelector": "5224473277236331295",
+			"aggregateRateLimit": {
+				"capacity": "100_000",
+				"refillRate": "167"
+			},
+			"transferableTokens": [
+				{ 
+					"symbol": "CCIP-BnM",
+					"tokenAddress": "0xcab0EF91Bee323d1A617c0a027eE753aFd6997E4",
+					"decimals": "18",
+					"mechanism": "burn-mint",
+					"rateLimitCapacity": "100_000",
+					"rateLimitRefillRate": "167"
+				}, { 
+					"symbol": "CCIP-LnM",
+					"tokenAddress": "0x3d357fb52253e86c8Ee0f80F5FfE438fD9503FF2",
+					"decimals": "18",
+					"mechanism": "burn-mint",
+					"rateLimitCapacity": "100_000",
+					"rateLimitRefillRate": "167"
+				}, { 
+					"symbol": "USDC",
+					"tokenAddress": "0x41E94Eb019C0762f9Bfcf9Fb1E58725BfB0e7582",
+					"decimals": "6",
+					"mechanism": "burn-mint",
+					"rateLimitCapacity": "100_000",
+					"rateLimitRefillRate": "167"
+				}
+			]
+		},
+		"polygonAmoy-wemixTestnet": {
+			"onRampAddress": "0x26546096F64B5eF9A1DcDAe70Df6F4f8c2E10C61",
+			"destChainSelector": "9284632837123596123",
+			"aggregateRateLimit": {
+				"capacity": "100_000",
+				"refillRate": "167"
+			},
+			"transferableTokens": [
+				{ 
+					"symbol": "CCIP-BnM",
+					"tokenAddress": "0xcab0EF91Bee323d1A617c0a027eE753aFd6997E4",
+					"decimals": "18",
+					"mechanism": "burn-mint",
+					"rateLimitCapacity": "100_000",
+					"rateLimitRefillRate": "167"
+				}, { 
+					"symbol": "CCIP-LnM",
+					"tokenAddress": "0x3d357fb52253e86c8Ee0f80F5FfE438fD9503FF2",
+					"decimals": "18",
+					"mechanism": "burn-mint",
+					"rateLimitCapacity": "100_000",
+					"rateLimitRefillRate": "167"
+				}
+			]
+		}
+	}
+}

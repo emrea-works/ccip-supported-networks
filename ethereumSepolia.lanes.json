@@ -1,0 +1,267 @@
+{
+	"ethereumSepolia": {
+		"routerAddress": "0x0BF3dE8c5D3e8A2B34D2BEeB17ABfCeBaf363A59",
+		"chainSelector": "16015286601757825753",
+		"feeTokens": {
+			"LINK": "0x779877A7B0D9E8603169DdbD7836e478b4624789",
+			"WETH": "0x097D90c9d3E0B50Ca60e1ae45F6A81010f9FB534",
+			"ETH": "native"
+		},
+		"ethereumSepolia-avalancheFuji": {
+			"onRampAddress": "0x0477cA0a35eE05D3f9f424d88bC0977ceCf339D4",
+			"destChainSelector": "14767482510784806043",
+			"aggregateRateLimit": {
+				"capacity": "100_000",
+				"refillRate": "167"
+			},
+			"transferableTokens": [
+				{ 
+					"symbol": "CCIP-BnM",
+					"tokenAddress": "0xFd57b4ddBf88a4e07fF4e34C487b99af2Fe82a05",
+					"decimals": "18",
+					"mechanism": "burn-mint",
+					"rateLimitCapacity": "100_000",
+					"rateLimitRefillRate": "167"
+				}, { 
+					"symbol": "CCIP-LnM",
+					"tokenAddress": "0x466D489b6d36E7E3b824ef491C225F5830E81cC1",
+					"decimals": "18",
+					"mechanism": "lock-mint",
+					"rateLimitCapacity": "100_000",
+					"rateLimitRefillRate": "167"
+				}, { 
+					"symbol": "GHO",
+					"tokenAddress": "0xc4bF5CbDaBE595361438F8c6a187bDc330539c60",
+					"decimals": "18",
+					"mechanism": "lock-mint",
+					"rateLimitCapacity": "",
+					"rateLimitRefillRate": ""
+				}, { 
+					"symbol": "USDC",
+					"tokenAddress": "0x1c7D4B196Cb0C7B01d743Fbc6116a902379C7238",
+					"decimals": "6",
+					"mechanism": "burn-mint",
+					"rateLimitCapacity": "100_000",
+					"rateLimitRefillRate": "167"
+				}
+			]
+		},
+		"ethereumSepolia-bnbChainTestnet": {
+			"onRampAddress": "0xD990f8aFA5BCB02f95eEd88ecB7C68f5998bD618",
+			"destChainSelector": "13264668187771770619",
+			"aggregateRateLimit": {
+				"capacity": "100_000",
+				"refillRate": "167"
+			},
+			"transferableTokens": [
+				{ 
+					"symbol": "CCIP-BnM",
+					"tokenAddress": "0xFd57b4ddBf88a4e07fF4e34C487b99af2Fe82a05",
+					"decimals": "18",
+					"mechanism": "burn-mint",
+					"rateLimitCapacity": "100_000",
+					"rateLimitRefillRate": "167"
+				}, { 
+					"symbol": "CCIP-LnM",
+					"tokenAddress": "0x466D489b6d36E7E3b824ef491C225F5830E81cC1",
+					"decimals": "18",
+					"mechanism": "lock-mint",
+					"rateLimitCapacity": "100_000",
+					"rateLimitRefillRate": "167"
+				}
+			]
+		},
+		"ethereumSepolia-arbitrumSepolia": {
+			"onRampAddress": "0xe4Dd3B16E09c016402585a8aDFdB4A18f772a07e",
+			"destChainSelector": "3478487238524512106",
+			"aggregateRateLimit": {
+				"capacity": "1_000_000_000_000_000_000",
+				"refillRate": "167"
+			},
+			"transferableTokens": [
+				{ 
+					"symbol": "CCIP-BnM",
+					"tokenAddress": "0xFd57b4ddBf88a4e07fF4e34C487b99af2Fe82a05",
+					"decimals": "18",
+					"mechanism": "burn-mint",
+					"rateLimitCapacity": "100_000",
+					"rateLimitRefillRate": "167"
+				}, { 
+					"symbol": "CCIP-LnM",
+					"tokenAddress": "0x466D489b6d36E7E3b824ef491C225F5830E81cC1",
+					"decimals": "18",
+					"mechanism": "lock-mint",
+					"rateLimitCapacity": "100_000",
+					"rateLimitRefillRate": "167"
+				}, { 
+					"symbol": "GHO",
+					"tokenAddress": "0xc4bF5CbDaBE595361438F8c6a187bDc330539c60",
+					"decimals": "18",
+					"mechanism": "lock-mint",
+					"rateLimitCapacity": "",
+					"rateLimitRefillRate": ""
+				}, { 
+					"symbol": "USDC",
+					"tokenAddress": "0x1c7D4B196Cb0C7B01d743Fbc6116a902379C7238",
+					"decimals": "6",
+					"mechanism": "burn-mint",
+					"rateLimitCapacity": "100_000",
+					"rateLimitRefillRate": "167"
+				}
+			]
+		},
+		"ethereumSepolia-baseSepolia": {
+			"onRampAddress": "0x2B70a05320cB069e0fB55084D402343F832556E7",
+			"destChainSelector": "10344971235874465080",
+			"aggregateRateLimit": {
+				"capacity": "100_000",
+				"refillRate": "167"
+			},
+			"transferableTokens": [
+				{ 
+					"symbol": "CCIP-BnM",
+					"tokenAddress": "0xFd57b4ddBf88a4e07fF4e34C487b99af2Fe82a05",
+					"decimals": "18",
+					"mechanism": "burn-mint",
+					"rateLimitCapacity": "100_000",
+					"rateLimitRefillRate": "167"
+				}, { 
+					"symbol": "CCIP-LnM",
+					"tokenAddress": "0x466D489b6d36E7E3b824ef491C225F5830E81cC1",
+					"decimals": "18",
+					"mechanism": "lock-mint",
+					"rateLimitCapacity": "100_000",
+					"rateLimitRefillRate": "167"
+				}, { 
+					"symbol": "GHO",
+					"tokenAddress": "0xc4bF5CbDaBE595361438F8c6a187bDc330539c60",
+					"decimals": "18",
+					"mechanism": "lock-mint",
+					"rateLimitCapacity": "",
+					"rateLimitRefillRate": ""
+				}, { 
+					"symbol": "USDC",
+					"tokenAddress": "0x1c7D4B196Cb0C7B01d743Fbc6116a902379C7238",
+					"decimals": "6",
+					"mechanism": "burn-mint",
+					"rateLimitCapacity": "100_000",
+					"rateLimitRefillRate": "167"
+				}
+			]
+		},
+		"ethereumSepolia-optimismSepolia": {
+			"onRampAddress": "0x69CaB5A0a08a12BaFD8f5B195989D709E396Ed4d",
+			"destChainSelector": "5224473277236331295",
+			"aggregateRateLimit": {
+				"capacity": "100_000",
+				"refillRate": "167"
+			},
+			"transferableTokens": [
+				{ 
+					"symbol": "CCIP-BnM",
+					"tokenAddress": "0xFd57b4ddBf88a4e07fF4e34C487b99af2Fe82a05",
+					"decimals": "18",
+					"mechanism": "burn-mint",
+					"rateLimitCapacity": "100_000",
+					"rateLimitRefillRate": "167"
+				}, { 
+					"symbol": "CCIP-LnM",
+					"tokenAddress": "0x466D489b6d36E7E3b824ef491C225F5830E81cC1",
+					"decimals": "18",
+					"mechanism": "lock-mint",
+					"rateLimitCapacity": "100_000",
+					"rateLimitRefillRate": "167"
+				}, { 
+					"symbol": "USDC",
+					"tokenAddress": "0x1c7D4B196Cb0C7B01d743Fbc6116a902379C7238",
+					"decimals": "6",
+					"mechanism": "burn-mint",
+					"rateLimitCapacity": "100_000",
+					"rateLimitRefillRate": "167"
+				}
+			]
+		},
+		"ethereumSepolia-polygonAmoy": {
+			"onRampAddress": "0x9f656e0361Fb5Df2ac446102c8aB31855B591692",
+			"destChainSelector": "16281711391670634445",
+			"aggregateRateLimit": {
+				"capacity": "100_000",
+				"refillRate": "167"
+			},
+			"transferableTokens": [
+				{ 
+					"symbol": "CCIP-BnM",
+					"tokenAddress": "0xFd57b4ddBf88a4e07fF4e34C487b99af2Fe82a05",
+					"decimals": "18",
+					"mechanism": "burn-mint",
+					"rateLimitCapacity": "100_000",
+					"rateLimitRefillRate": "167"
+				}, { 
+					"symbol": "CCIP-LnM",
+					"tokenAddress": "0x466D489b6d36E7E3b824ef491C225F5830E81cC1",
+					"decimals": "18",
+					"mechanism": "lock-mint",
+					"rateLimitCapacity": "100_000",
+					"rateLimitRefillRate": "167"
+				}, { 
+					"symbol": "USDC",
+					"tokenAddress": "0x1c7D4B196Cb0C7B01d743Fbc6116a902379C7238",
+					"decimals": "6",
+					"mechanism": "burn-mint",
+					"rateLimitCapacity": "100_000",
+					"rateLimitRefillRate": "167"
+				}
+			]
+		},
+		"ethereumSepolia-wemixTestnet": {
+			"onRampAddress": "0xedFc22336Eb0B9B11Ff37C07777db27BCcDe3C65",
+			"destChainSelector": "9284632837123596123",
+			"aggregateRateLimit": {
+				"capacity": "100_000",
+				"refillRate": "167"
+			},
+			"transferableTokens": [
+				{ 
+					"symbol": "CCIP-BnM",
+					"tokenAddress": "0xFd57b4ddBf88a4e07fF4e34C487b99af2Fe82a05",
+					"decimals": "18",
+					"mechanism": "burn-mint",
+					"rateLimitCapacity": "1_000_000_000",
+					"rateLimitRefillRate": "167"
+				}, { 
+					"symbol": "CCIP-LnM",
+					"tokenAddress": "0x466D489b6d36E7E3b824ef491C225F5830E81cC1",
+					"decimals": "18",
+					"mechanism": "lock-mint",
+					"rateLimitCapacity": "1_000_000_000",
+					"rateLimitRefillRate": "167"
+				}
+			]
+		},
+		"ethereumSepolia-gnosisChiado": {
+			"onRampAddress": "0x3E842E3A79A00AFdd03B52390B1caC6306Ea257E",
+			"destChainSelector": "8871595565390010547",
+			"aggregateRateLimit": {
+				"capacity": "100_000",
+				"refillRate": "167"
+			},
+			"transferableTokens": [
+				{ 
+					"symbol": "CCIP-BnM",
+					"tokenAddress": "0xFd57b4ddBf88a4e07fF4e34C487b99af2Fe82a05",
+					"decimals": "18",
+					"mechanism": "burn-mint",
+					"rateLimitCapacity": "100_000",
+					"rateLimitRefillRate": "167"
+				}, { 
+					"symbol": "CCIP-LnM",
+					"tokenAddress": "0x466D489b6d36E7E3b824ef491C225F5830E81cC1",
+					"decimals": "18",
+					"mechanism": "lock-mint",
+					"rateLimitCapacity": "100_000",
+					"rateLimitRefillRate": "167"
+				}
+			]
+		},
+	}
+}

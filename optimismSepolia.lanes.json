@@ -1,0 +1,196 @@
+{
+	"optimismSepolia": {
+		"routerAddress": "0x114A20A10b43D4115e5aeef7345a1A71d2a60C57",
+		"chainSelector": "5224473277236331295",
+		"feeTokens": {
+			"LINK": "0xE4aB69C077896252FAFBD49EFD26B5D171A32410",
+			"WETH": "0x4200000000000000000000000000000000000006",
+			"ETH": "native"
+		},
+		"optimismSepolia-avalancheFuji": {
+			"onRampAddress": "0x6b38CC6Fa938D5AB09Bdf0CFe580E226fDD793cE",
+			"destChainSelector": "14767482510784806043",
+			"aggregateRateLimit": {
+				"capacity": "100_000",
+				"refillRate": "167"
+			},
+			"transferableTokens": [
+				{ 
+					"symbol": "CCIP-BnM",
+					"tokenAddress": "0x8aF4204e30565DF93352fE8E1De78925F6664dA7",
+					"decimals": "18",
+					"mechanism": "burn-mint",
+					"rateLimitCapacity": "100_000",
+					"rateLimitRefillRate": "167"
+				}, { 
+					"symbol": "CCIP-LnM",
+					"tokenAddress": "0x044a6B4b561af69D2319A2f4be5Ec327a6975D0a",
+					"decimals": "18",
+					"mechanism": "burn-mint",
+					"rateLimitCapacity": "100_000",
+					"rateLimitRefillRate": "167"
+				}, { 
+					"symbol": "USDC",
+					"tokenAddress": "0x5fd84259d66Cd46123540766Be93DFE6D43130D7",
+					"decimals": "6",
+					"mechanism": "burn-mint",
+					"rateLimitCapacity": "100_000",
+					"rateLimitRefillRate": "167"
+				}
+			]
+		},
+		"optimismSepolia-ethereumSepolia": {
+			"onRampAddress": "0xC8b93b46BF682c39B3F65Aa1c135bC8A95A5E43a",
+			"destChainSelector": "16015286601757825753",
+			"aggregateRateLimit": {
+				"capacity": "100_000",
+				"refillRate": "167"
+			},
+			"transferableTokens": [
+				{ 
+					"symbol": "CCIP-BnM",
+					"tokenAddress": "0x8aF4204e30565DF93352fE8E1De78925F6664dA7",
+					"decimals": "18",
+					"mechanism": "burn-mint",
+					"rateLimitCapacity": "100_000",
+					"rateLimitRefillRate": "167"
+				}, { 
+					"symbol": "CCIP-LnM",
+					"tokenAddress": "0x044a6B4b561af69D2319A2f4be5Ec327a6975D0a",
+					"decimals": "18",
+					"mechanism": "burn-unlock",
+					"rateLimitCapacity": "100_000",
+					"rateLimitRefillRate": "167"
+				}, { 
+					"symbol": "USDC",
+					"tokenAddress": "0x5fd84259d66Cd46123540766Be93DFE6D43130D7",
+					"decimals": "6",
+					"mechanism": "burn-mint",
+					"rateLimitCapacity": "100_000",
+					"rateLimitRefillRate": "167"
+				}
+			]
+		},
+		"optimismSepolia-arbitrumSepolia": {
+			"onRampAddress": "0x1a86b29364D1B3fA3386329A361aA98A104b2742",
+			"destChainSelector": "3478487238524512106",
+			"aggregateRateLimit": {
+				"capacity": "100_000",
+				"refillRate": "167"
+			},
+			"transferableTokens": [
+				{ 
+					"symbol": "CCIP-BnM",
+					"tokenAddress": "0x8aF4204e30565DF93352fE8E1De78925F6664dA7",
+					"decimals": "18",
+					"mechanism": "burn-mint",
+					"rateLimitCapacity": "100_000",
+					"rateLimitRefillRate": "167"
+				}, { 
+					"symbol": "CCIP-LnM",
+					"tokenAddress": "0x044a6B4b561af69D2319A2f4be5Ec327a6975D0a",
+					"decimals": "18",
+					"mechanism": "burn-mint",
+					"rateLimitCapacity": "100_000",
+					"rateLimitRefillRate": "167"
+				}, {
+					"symbol": "USDC",
+					"tokenAddress": "0x5fd84259d66Cd46123540766Be93DFE6D43130D7",
+					"decimals": "6",
+					"mechanism": "burn-mint",
+					"rateLimitCapacity": "100_000",
+					"rateLimitRefillRate": "167"
+				}
+			]
+		},
+		"optimismSepolia-baseSepolia": {
+			"onRampAddress": "0xe284D2315a28c4d62C419e8474dC457b219DB969",
+			"destChainSelector": "10344971235874465080",
+			"aggregateRateLimit": {
+				"capacity": "100_000",
+				"refillRate": "167"
+			},
+			"transferableTokens": [
+				{ 
+					"symbol": "CCIP-BnM",
+					"tokenAddress": "0x8aF4204e30565DF93352fE8E1De78925F6664dA7",
+					"decimals": "18",
+					"mechanism": "burn-mint",
+					"rateLimitCapacity": "100_000",
+					"rateLimitRefillRate": "167"
+				}, { 
+					"symbol": "CCIP-LnM",
+					"tokenAddress": "0x044a6B4b561af69D2319A2f4be5Ec327a6975D0a",
+					"decimals": "18",
+					"mechanism": "burn-mint",
+					"rateLimitCapacity": "100_000",
+					"rateLimitRefillRate": "167"
+				}, { 
+					"symbol": "USDC",
+					"tokenAddress": "0x5fd84259d66Cd46123540766Be93DFE6D43130D7",
+					"decimals": "6",
+					"mechanism": "burn-mint",
+					"rateLimitCapacity": "100_000",
+					"rateLimitRefillRate": "167"
+				}
+			]
+		},
+		"optimismSepolia-polygonAmoy": {
+			"onRampAddress": "0x2Cf26fb01E9ccDb831414B766287c0A9e4551089",
+			"destChainSelector": "16281711391670634445",
+			"aggregateRateLimit": {
+				"capacity": "100_000",
+				"refillRate": "167"
+			},
+			"transferableTokens": [
+				{ 
+					"symbol": "CCIP-BnM",
+					"tokenAddress": "0x8aF4204e30565DF93352fE8E1De78925F6664dA7",
+					"decimals": "18",
+					"mechanism": "burn-mint",
+					"rateLimitCapacity": "100_000",
+					"rateLimitRefillRate": "167"
+				}, { 
+					"symbol": "CCIP-LnM",
+					"tokenAddress": "0x044a6B4b561af69D2319A2f4be5Ec327a6975D0a",
+					"decimals": "18",
+					"mechanism": "burn-mint",
+					"rateLimitCapacity": "100_000",
+					"rateLimitRefillRate": "167"
+				}, { 
+					"symbol": "USDC",
+					"tokenAddress": "0x5fd84259d66Cd46123540766Be93DFE6D43130D7",
+					"decimals": "6",
+					"mechanism": "burn-mint",
+					"rateLimitCapacity": "100_000",
+					"rateLimitRefillRate": "167"
+				}
+			]
+		},
+		"optimismSepolia-wemixTestnet": {
+			"onRampAddress": "0xc7E53f6aB982af7A7C3e470c8cCa283d3399BDAd",
+			"destChainSelector": "9284632837123596123",
+			"aggregateRateLimit": {
+				"capacity": "100_000",
+				"refillRate": "167"
+			},
+			"transferableTokens": [
+				{ 
+					"symbol": "CCIP-BnM",
+					"tokenAddress": "0x8aF4204e30565DF93352fE8E1De78925F6664dA7",
+					"decimals": "18",
+					"mechanism": "burn-mint",
+					"rateLimitCapacity": "100_000",
+					"rateLimitRefillRate": "167"
+				}, { 
+					"symbol": "CCIP-LnM",
+					"tokenAddress": "0x044a6B4b561af69D2319A2f4be5Ec327a6975D0a",
+					"decimals": "18",
+					"mechanism": "burn-mint",
+					"rateLimitCapacity": "100_000",
+					"rateLimitRefillRate": "167"
+				}
+			]
+		},
+	}
+}
